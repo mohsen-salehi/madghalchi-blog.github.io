@@ -1,0 +1,82 @@
+/*@font-face {*/
+/*    font-family: 'Cinema';*/
+/*    font-style: normal;*/
+/*    font-weight: normal;*/
+/*    src: local('Cinema St Regular'), url("../font/cinema_st.woff") format('woff');*/
+/*}*/
+@font-face {
+    font-family: 'iransans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('IRANSans-web'), url("../font/IRANSans-web.woff") format('woff');
+}
+:root{
+    font-family: 'iransans', sans-serif !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --default : rgb(33,34,37);
+    --dark : #1B1E1B;
+    --green:#45ca44;
+}
+
+.font-cinema{
+    font-family: 'Cinema', sans-serif;
+}
+.font-iransans{
+    font-family: "iransans", sans-serif !important;
+}
+
+.line-20 {
+    line-height: 20px;
+}
+
+.linear-text {
+    background: linear-gradient(to right, #2CCFA2, #45ca44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-green{
+    color: var(--green);
+}
+.text-justify{
+    text-align: justify;
+}
+
+
+.fs-7{
+    font-size: .8rem;
+}
+
+.man-image{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.bg-green {
+    background: var(--green);
+}
+.bg-default{
+    background: rgb(31,32,35);
+    background: linear-gradient(151deg, rgba(31,32,35,1) 0%, rgba(62,66,70,1) 87%);
+}
+.bg-custom-dark{
+    background: var(--dark);
+}
+
+
+.border-dotted-bottom{
+    border-bottom: 1px dotted #474747;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination-bullet-active{
+    background: var(--green) !important;
+}
