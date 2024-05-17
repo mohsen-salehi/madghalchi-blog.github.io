@@ -20,6 +20,21 @@
     --green:#45ca44;
 }
 
+*::-webkit-scrollbar{
+    width: 8px ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: var(--dark);
+}
+*::-webkit-scrollbar-thumb{
+    width: 8px ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: var(--green);
+}
+
 .font-cinema{
     font-family: 'Cinema', sans-serif;
 }
